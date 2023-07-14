@@ -94,7 +94,7 @@ html {
 
 
 .parallax-header {
-    background-image: url('/assets/bg-header.webp');
+    background-image: url('assets/bg-header.webp');
     background-size: cover;
     height: 95vh;
     display: flex;
@@ -161,7 +161,7 @@ main {
     height: 36px;
     background-color: #184A4E;
     border: none;
-    background-image: url("/assets/banner.webp");
+    background-image: url("assets/banner.webp");
     animation: backgroundScroll 3s linear infinite; /* Utiliser l'animation avec une durée de 20s en boucle infinie */
   background-repeat: repeat-x; /* Répétition horizontale de l'image */
 }
