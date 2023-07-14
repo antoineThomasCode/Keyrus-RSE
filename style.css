@@ -96,7 +96,7 @@ html {
 .parallax-header {
     background-image: url('assets/bg-header.webp');
     background-size: cover;
-    height: 95vh;
+    height: 90vh;
     display: flex;
     overflow: hidden;
 }
