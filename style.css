@@ -108,6 +108,8 @@ html {
     display: flex;
     flex-wrap: wrap;
     flex-basis: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 .main-title_container {
     display: flex;
@@ -164,6 +166,47 @@ main {
     background-image: url("assets/banner.webp");
     animation: backgroundScroll 3s linear infinite; /* Utiliser l'animation avec une durée de 20s en boucle infinie */
   background-repeat: repeat-x; /* Répétition horizontale de l'image */
+}
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+.strategy {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #14AA69;
+    padding: 75px 20px;
+}
+.strategy_content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.strategy_heading {
+    display: flex;
+    
+}
+.strategy_heading  > p {
+    flex-basis: 60%;
+    color: #FAFAFA;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px; 
+}
+.strategy_heading > h2 {
+    flex-basis: 20%;
+    font-family: 'ABeeZee', sans-serif;
+    color: #043F32;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    margin-right: 64px;
 }
 
 @media screen and (max-width: 900px) {
