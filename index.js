@@ -11,5 +11,5 @@ document.addEventListener('DOMContentLoaded', function() {
   setTimeout(function() {
     var h1 = document.querySelector('h1');
     h1.classList.add('appear');
-  }, 500);
+  }, 1500);
 });
