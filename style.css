@@ -151,9 +151,10 @@ html {
 }
 
 main {
-    height: 1000px;
     background-color: #FAFAFA;
-
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .logo > img {
@@ -171,7 +172,7 @@ main {
 .main-content {
     display: flex;
     flex-wrap: wrap;
-    
+    flex-basis: 100%;
 
 }
 .strategy {
@@ -179,6 +180,7 @@ main {
     flex-wrap: wrap;
     background-color: #14AA69;
     padding: 75px 20px;
+    flex-basis: 100%;
 }
 .strategy_content {
     display: flex;
@@ -186,10 +188,16 @@ main {
     flex-basis: 100%;
     max-width: 1600px;
     margin: 0 auto;
+    width: 100%;
 }
 .strategy_heading {
     display: flex;
-    
+    flex-wrap: wrap;
+}
+.collaspse-container {
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: wrap;
 }
 .strategy_heading  > p {
     flex-basis: 60%;
@@ -209,6 +217,15 @@ main {
     font-weight: 600;
     margin-right: 64px;
 }
+.container-collapse {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+}
+.swiper {
+    width: 100%;
+    height: 600px;
+  }
 
 @media screen and (max-width: 900px) {
     .main-title_container > h1 {
@@ -254,14 +271,16 @@ main {
     .strategy_heading {
         display: flex;
         flex-wrap: wrap;
-        
+        flex-wrap: wrap;
     }
     .strategy_heading  > p {
         font-size: 14px;
         flex-basis: 100%;
         margin-top: 30px;
+        display: flex;
     }
     .strategy_heading > h2 {
+        display: flex;
         font-size: 26px;
         flex-basis: 100%;
     }
