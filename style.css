@@ -99,6 +99,7 @@ html {
     height: 90vh;
     display: flex;
     overflow: hidden;
+    background-color: #14AA69;
 }
   
 .header-content {
@@ -245,5 +246,23 @@ main {
     .banner {
         animation: backgroundScroll 20s linear infinite; /* Utiliser l'animation avec une durée de 20s en boucle infinie */
         background-repeat: repeat-x; /* Répétition horizontale de l'image */
+    }
+    .strategy {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .strategy_heading {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .strategy_heading  > p {
+        font-size: 14px;
+        flex-basis: 100%;
+        margin-top: 30px;
+    }
+    .strategy_heading > h2 {
+        font-size: 26px;
+        flex-basis: 100%;
     }
 }
