@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var h1 = document.querySelector('h1');
     h1.classList.add('appear');
   }, 800);
+  
 });
 
 
@@ -45,3 +46,37 @@ const swiper = new Swiper('.swiper', {
 
 // collaspse animation button 
 
+function toggleCollapse(e) {
+  console.log(e)
+  e.preventDefault()
+  console.log("ok")
+  var content = e.nextElementSibling;
+  console.log(content)
+  if (content.style.display === "none") {
+      content.style.display = "block";
+  } else {
+      content.style.display = "none";
+  }
+  
+}
+const clicked = (event) => {
+  var button = event.target;
+  if (button.tagName !== 'BUTTON') {
+      button = button.parentElement;
+  }
+  var content = button.nextElementSibling;
+  if (content.style.display === "none") {
+      content.style.display = "block";
+  } else {
+      content.style.display = "none";
+  }
+}
+
+
+
+
+
+
+
+
+  
