@@ -280,7 +280,7 @@ main {
     transition: left 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 .clicked {
-    left: 310px;
+    left: 85%;
     transform: rotate(45deg);
     transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
@@ -291,7 +291,7 @@ main {
     font-weight: 400;
     line-height: 32px; 
     color: #FAFAFA;
-    width: 80%;
+    width: 85%;
     position: absolute;
     top: -50px;
     left: 3px;
@@ -448,6 +448,7 @@ main {
         flex-basis: 100%;
         margin-bottom: 30px;
         padding: 30px 30px;
+        min-height: 330px;
     }
     .strategy_footer-content > p {
         font-size: 14px;
@@ -455,6 +456,16 @@ main {
     .container-collapse {
         margin: 40px 0;
        
+    }
+    .collapse-btn {
+        top: -50px
+    }
+    .collapse > h3 {
+        position: relative;
+        bottom: 30px;
+    }
+    .collapse_content > p {
+        top: -74px;
     }
     .strategy_footer-content {
         margin : 0; 
