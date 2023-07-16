@@ -42,3 +42,6 @@ const swiper = new Swiper('.swiper', {
 });
 // slider strategy section 
 
+
+// collaspse animation button 
+
