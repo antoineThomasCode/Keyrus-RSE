@@ -61,17 +61,23 @@ function toggleCollapse(e) {
 }
 const clicked = (event) => {
   var button = event.target;
+  
   if (button.tagName !== 'BUTTON') {
       button = button.parentElement;
   }
+  
   var content = button.nextElementSibling;
+  
   if (content.style.display === "none") {
       content.style.display = "block";
+      content.classList.add('fadeIn');
+      button.classList.add('clicked');
   } else {
       content.style.display = "none";
+      content.classList.remove('fadeIn');
+      button.classList.remove('clicked');
   }
 }
-
 
 
 
