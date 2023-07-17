@@ -95,7 +95,25 @@ html {
     from { opacity: 0; transform: translateY(20px); }
     to   { opacity: 1; transform: translateY(0); }
 }
+.floating-animation{
+    animation: floating 6s ease-in-out infinite;
+  }
 
+  
+  @keyframes floating {
+    0%, 100% {
+      transform: translate(0, 0);
+    }
+    25% {
+      transform: translate(0px, 5px);
+    }
+    50% {
+      transform: translate(0px, 10px);
+    }
+    75% {
+      transform: translate(0px, -5px);
+    }
+  }
   
 /* style de la page */
 
