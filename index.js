@@ -24,11 +24,32 @@ document.addEventListener('DOMContentLoaded', function() {
 const swiper = new Swiper('.swiper', {
   direction: 'horizontal',
   loop: true,
-
+breakpoints: {
+    0: {
+        slidesPerView: 1,
+        spaceBetween: 20
+    },
+    400: {
+        slidesPerView: 1,
+        spaceBetween: 20
+    },
+    768: {
+        slidesPerView: 1,
+        spaceBetween: 20
+    },
+    1200: {
+        slidesPerView: 1,
+        spaceBetween: 30
+    },
+    1800: {
+        slidesPerView: 1,
+        spaceBetween: 40
+    }
+},
   // If we need pagination
-  pagination: {
+  /*pagination: {
     el: '.swiper-pagination',
-  },
+  },*/
 
   // Navigation arrows
   navigation: {
@@ -37,9 +58,9 @@ const swiper = new Swiper('.swiper', {
   },
 
   // And if we need scrollbar
-  scrollbar: {
+  /*scrollbar: {
     el: '.swiper-scrollbar',
-  },
+  },*/
 });
 // slider strategy section 
 
